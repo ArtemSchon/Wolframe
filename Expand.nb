@@ -1,0 +1,67 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1640,         57]
+NotebookOptionsPosition[      1223,         41]
+NotebookOutlinePosition[      1565,         56]
+CellTagsIndexPosition[      1522,         53]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Expand", " ", "[", 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"x", "-", "2"}], ")"}], 
+   RowBox[{"(", 
+    RowBox[{"x", "+", "3"}], ")"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.756744376846568*^9, 3.7567444608473945`*^9}, {
+  3.7567445048938103`*^9, 3.7567445292512665`*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"74b2353d-14ff-4446-8307-0fa62c456d7c"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"-", "6"}], "+", "x", "+", 
+  SuperscriptBox["x", "2"]}]], "Output",
+ CellChangeTimes->{3.756744466418389*^9, 3.75674453038698*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"a3bcdcc1-ec76-4da8-9ec7-453a759b50b6"]
+}, Open  ]]
+},
+WindowSize->{1034, 988},
+WindowMargins->{{Automatic, 52}, {Automatic, 8}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 380, 9, 28, "Input",ExpressionUUID->"74b2353d-14ff-4446-8307-0fa62c456d7c"],
+Cell[963, 33, 244, 5, 65, "Output",ExpressionUUID->"a3bcdcc1-ec76-4da8-9ec7-453a759b50b6"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

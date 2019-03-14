@@ -1,0 +1,183 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      6122,        173]
+NotebookOptionsPosition[      4950,        144]
+NotebookOutlinePosition[      5293,        159]
+CellTagsIndexPosition[      5250,        156]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"Sphere", "[", "]"}], ",", 
+    RowBox[{"Cylinder", "[", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.758211916513154*^9, 3.7582119220354195`*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"f11a20f0-d05b-4186-ab04-92ef9fc40ce1"],
+
+Cell[BoxData[
+ Graphics3DBox[{SphereBox[{0, 0, 0}], CylinderBox[{{0, 0, -1}, {0, 0, 1}}]},
+  ImageSize->{366.1822165445194, 384.3444563002546},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{2.25973015831695, -1.8586232345892995`, 1.6997468292182984`},
+  ViewVertical->{
+   0.6842457343176375, -0.6098442651901361, -0.3998721636758683}]], "Output",
+ CellChangeTimes->{3.758211922946116*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"a6fa8450-f119-4e76-b7b0-1ec068e88b92"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.7582118690942326`*^9, 3.758211870202797*^9}},
+ CellLabel->"In[2]:=",ExpressionUUID->"781f156d-74ad-4334-b3c0-e55d90092183"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics3D", "[", 
+  RowBox[{"Sphere", "[", "]"}], "]"}]], "Input",
+ CellLabel->"In[3]:=",ExpressionUUID->"6cb0cf06-5c57-408f-ba68-9515c00a3e29"],
+
+Cell[BoxData[
+ Graphics3DBox[SphereBox[{0, 0, 0}],
+  ImageSize->{343.7182021005039, 388.62636797648486`},
+  ImageSizeRaw->Automatic,
+  ViewPoint->{2.1166146972880155`, -2.521503505427632, -0.7822801897916931},
+  ViewVertical->{-0.2595712671481583, -0.9190758088202019, \
+-0.29651714100974236`}]], "Output",
+ CellChangeTimes->{3.7582118872497845`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"612c1470-f2ac-4f56-bdd2-34ce8d11af6c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Graphics3D", "[", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"Sphere", "[", "]"}], ",", 
+     RowBox[{"Cylinder", "[", "]"}]}], "}"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.758212396359317*^9, 3.758212406310062*^9}, {
+  3.758212479574242*^9, 3.75821253753568*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"0a97dc9b-c8e1-4a15-908f-23defda1cc5b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/objects/85707c5a-8f5f-48ff-ac09-\
+55cfa46e5779\"",
+     "https://www.wolframcloud.com/objects/85707c5a-8f5f-48ff-ac09-\
+55cfa46e5779"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/objects/85707c5a-8f5f-48ff-ac09-55cfa46e5779"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{{3.758212566592443*^9, 3.7582125672017794`*^9}},
+ CellLabel->"Out[6]=",ExpressionUUID->"1e8830fc-b200-4aca-90ec-baa560529aa6"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"Framed", "@", 
+    RowBox[{"Graphics3D", "[", 
+     RowBox[{
+      RowBox[{"Sphere", "[", "]"}], ",", 
+      RowBox[{"AspectRatio", "\[Rule]", 
+       RowBox[{"1", "/", "k"}]}]}], "]"}]}], ",", 
+   RowBox[{"{", 
+    RowBox[{"k", ",", "1", ",", "3"}], "}"}]}], "]"}]], "Input",
+ CellLabel->"In[7]:=",ExpressionUUID->"860909a8-49fa-476f-ba3c-50606b53bc63"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   FrameBox[
+    Graphics3DBox[SphereBox[{0, 0, 0}],
+     AspectRatio->1,
+     ImageSize->{185.19223278506666`, 191.53116732471267`},
+     ImageSizeRaw->Automatic,
+     ViewPoint->{-0.5582443318957139, -1.7362747695785272`, 2.850212832479592},
+     ViewVertical->{-0.4399512167595797, 0.34831721294358003`, 
+      0.8277185790103916}],
+    StripOnInput->False], ",", 
+   FrameBox[
+    Graphics3DBox[SphereBox[{0, 0, 0}],
+     AspectRatio->NCache[
+       Rational[1, 2], 0.5],
+     ImageSize->{188.05287558630468`, 105.05835013881908`},
+     ImageSizeRaw->Automatic,
+     ViewPoint->{1.2999999999999998`, -2.4, 2.},
+     ViewVertical->{0.6733278799645556, 0.13685830082714706`, 
+      0.7265668390156154}],
+    StripOnInput->False], ",", 
+   FrameBox[
+    Graphics3DBox[SphereBox[{0, 0, 0}],
+     AspectRatio->NCache[
+       Rational[1, 3], 0.3333333333333333],
+     ImageSize->{180.8370727539456, 59.40871274224473},
+     ImageSizeRaw->Automatic,
+     ViewPoint->{1.2999999999999998`, -2.4, 2.},
+     ViewVertical->{0.26446668748511093`, 0.10848118525286914`, 
+      0.9582740754381208}],
+    StripOnInput->False]}], "}"}]], "Output",
+ CellChangeTimes->{3.7582135229750447`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"0cea5772-1992-4576-88d0-5abe5f0c5ab9"]
+}, Open  ]]
+},
+WindowSize->{759, 813},
+WindowMargins->{{163, Automatic}, {-7, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 318, 7, 28, "Input",ExpressionUUID->"f11a20f0-d05b-4186-ab04-92ef9fc40ce1"],
+Cell[901, 31, 462, 8, 401, "Output",ExpressionUUID->"a6fa8450-f119-4e76-b7b0-1ec068e88b92"]
+}, Open  ]],
+Cell[1378, 42, 172, 2, 28, "Input",ExpressionUUID->"781f156d-74ad-4334-b3c0-e55d90092183"],
+Cell[CellGroupData[{
+Cell[1575, 48, 169, 3, 28, "Input",ExpressionUUID->"6cb0cf06-5c57-408f-ba68-9515c00a3e29"],
+Cell[1747, 53, 428, 8, 406, "Output",ExpressionUUID->"612c1470-f2ac-4f56-bdd2-34ce8d11af6c"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2212, 66, 406, 9, 28, "Input",ExpressionUUID->"0a97dc9b-c8e1-4a15-908f-23defda1cc5b"],
+Cell[2621, 77, 562, 13, 35, "Output",ExpressionUUID->"1e8830fc-b200-4aca-90ec-baa560529aa6"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3220, 95, 415, 11, 28, "Input",ExpressionUUID->"860909a8-49fa-476f-ba3c-50606b53bc63"],
+Cell[3638, 108, 1296, 33, 256, "Output",ExpressionUUID->"0cea5772-1992-4576-88d0-5abe5f0c5ab9"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+

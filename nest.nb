@@ -1,0 +1,60 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1475,         52]
+NotebookOptionsPosition[      1057,         36]
+NotebookOutlinePosition[      1400,         51]
+CellTagsIndexPosition[      1357,         48]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Nest", "[", 
+  RowBox[{"f", ",", "x", ",", "4"}], "]"}]], "Input",
+ CellLabel->"In[1]:=",ExpressionUUID->"5c47c6bc-60c9-499f-aa67-f64c4ba9c02f"],
+
+Cell[BoxData[
+ RowBox[{"f", "[", 
+  RowBox[{"f", "[", 
+   RowBox[{"f", "[", 
+    RowBox[{"f", "[", "x", "]"}], "]"}], "]"}], "]"}]], "Output",
+ CellChangeTimes->{{3.7567436000263243`*^9, 3.7567436410736465`*^9}},
+ CellLabel->"Out[1]=",ExpressionUUID->"6fa00449-cedb-4d59-a974-85bd5e9c0a12"]
+}, Open  ]]
+},
+WindowSize->{1034, 988},
+WindowMargins->{{Automatic, 93}, {Automatic, 22}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 168, 3, 28, "Input",ExpressionUUID->"5c47c6bc-60c9-499f-aa67-f64c4ba9c02f"],
+Cell[751, 27, 290, 6, 65, "Output",ExpressionUUID->"6fa00449-cedb-4d59-a974-85bd5e9c0a12"]
+}, Open  ]]
+}
+]
+*)
+
